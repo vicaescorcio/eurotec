@@ -5,9 +5,27 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+.arrows{
+  position: absolute;
+  bottom: 26%;
+  left: 50%;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
+}
+.question{
+  color: black;
+  text-align: center;
+}
+
+#psa_section{
+  display: none;
+}
+
+#head_parallax{
+  opacity: 0.4;
 }
 
 p {
@@ -37,7 +55,7 @@ p {
 }
 
 .logo {
-  height: 90px;
+  height: 100px;
   width: auto;
 }
 @media only screen and (max-width : 992px) {

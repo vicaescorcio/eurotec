@@ -4,11 +4,27 @@
 body{
   font-family: 'Raleway', sans-serif;
 }
+nav{
+  height: 100px;
+}
 
-.arrows{
+.brand-logo{
+  margin-top: 10px;
+}
+.arrow_right {
+  left: 57%;
+  bottom: 55%;
+  cursor: pointer;
+}
+
+.arrow_left {
+  left: 40%;
+  bottom: 55%;
+  cursor: pointer;
+}
+
+.arrows_icon {
   position: absolute;
-  bottom: 26%;
-  left: 50%;
 }
 
 nav ul a,
@@ -20,7 +36,7 @@ nav .brand-logo {
   text-align: center;
 }
 
-#psa_section{
+#btm_section{
   display: none;
 }
 

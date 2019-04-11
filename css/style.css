@@ -15,12 +15,10 @@ nav{
   left: 57%;
   bottom: 55%;
   cursor: pointer;
-}
-
-.arrow_left {
-  left: 40%;
-  bottom: 55%;
-  cursor: pointer;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .arrows_icon {
@@ -99,4 +97,11 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+/*animations*/
+
+@keyframes example {
+  from {left: 57%;}
+  to {left: 58%;}
 }

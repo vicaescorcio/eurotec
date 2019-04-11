@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Oxygen');
 
 
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 nav{
   height: 100px;
@@ -80,6 +80,7 @@ p {
   #index-banner .section {
     top: 10%;
   }
+
 }
 
 @media only screen and (max-width : 600px) {
@@ -97,9 +98,6 @@ p {
 
 footer.page-footer {
   margin: 0;
-}
-.alfa{
-
 }
 
 .title-contact{

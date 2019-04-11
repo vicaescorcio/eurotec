@@ -7,9 +7,11 @@
       indicators: true,
       numVisible: 2,
       onCycleTo: function(){
-        $('.fade_section').fadeToggle("200");
+        $('.fade_section').fadeToggle("500");
       }
     });
+
+    $('input#input_text, textarea#textarea2').characterCounter();
 
 
   }); // end of document ready

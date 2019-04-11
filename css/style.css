@@ -98,7 +98,13 @@ p {
 footer.page-footer {
   margin: 0;
 }
+.alfa{
 
+}
+
+.title-contact{
+  margin-bottom: 20px;
+}
 /*animations*/
 
 @keyframes example {
